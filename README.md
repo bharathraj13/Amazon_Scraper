@@ -32,6 +32,7 @@ Open the script in your preferred Python environment or IDE.
 Modify the URL variable if you want to search for different products on Amazon.
 
 Run the script:
+
 python amazon_scraper.py
 
 After execution, check the directory for the amazon_data.csv file containing the scraped product data.
@@ -48,9 +49,13 @@ get_availability(soup): Extracts the availability status of the product.
 
 The script will generate a CSV file (amazon_data.csv) with columns:
 **title:** The name of the product.
+
 **price:** The price of the product.
+
 **rating:** The rating given by users.
+
 **reviews:** The number of reviews received.
+
 **availability:** Availability status (e.g., "In Stock", "Not Available").
 
 **Important Notes**
