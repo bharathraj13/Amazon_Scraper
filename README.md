@@ -40,9 +40,13 @@ After execution, check the directory for the amazon_data.csv file containing the
 **Functions Overview**
 
 get_title(soup): Extracts the product title from the HTML soup.
+
 get_price(soup): Extracts the product price, checking multiple possible price IDs.
+
 get_rating(soup): Extracts the product rating from the HTML soup.
+
 get_review_count(soup): Extracts the number of user reviews from the HTML soup.
+
 get_availability(soup): Extracts the availability status of the product.
 
 **Example Output**
